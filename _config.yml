@@ -1,3 +1,41 @@
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+# Site settings
+title: "Ngoc Nguyen's Research"
+description: "Uncovering drivers of carbon storage in marine plankton."
+baseurl: "" # Leave this blank for user.github.io
+url: "https://username.github.io" # Your GitHub Pages URL
+author: 
+  name: "Ngoc Nguyen"
+  email: "nguyen@berkeley.edu"
+  bio: "PhD student researching marine plankton."
+  avatar: "/images/profile.jpg"
+
+# Social links
+social:
+  - name: GitHub
+    url: "https://github.com/username"
+  - name: LinkedIn
+    url: "https://linkedin.com/in/username"
+  - name: Google Scholar
+    url: "https://scholar.google.com/citations?user=XXXXXX"
+  - name: ORCID
+    url: "https://orcid.org/0000-0000-0000-0000"
+
+# Theme settings
+theme: "jekyll-theme-minimal"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Build settings
+exclude:
+  - README.md
+  - node_modules/
+ 
+
